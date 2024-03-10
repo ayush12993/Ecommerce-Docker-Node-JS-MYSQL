@@ -4,7 +4,7 @@ This Project is dockerized With [Ecommerce](https://www.linkedin.com/in/ayush-ja
 using filament(/app/http/Livewire/CreateEIN), & for processing of payment we are using Paypal Payment API with the implementation of method in it (/app/Http/Controller/PaypalController), after retrieving Payment we are using external API for processing of PDF [PDFCo](https://pdf.co) after processing it we are storing end-user details in it.    This project is styled with the help of `Tailwind` and `Livewire` components for implementing of functionality with `Alpine.js`. This project consists `of base` **authentication system** and **user profile features** right out-of-the-box. No more seeing here & there the code, you can now focus on the more complex aspects of our app. 
 
 - 👉 *Frontend ONLY Version*: [Nowhere hosted](https://www.linkedin.com/in/ayush-jain-654617145/) `v1.0.2`
-- 🎁 Developed by [Freelancer](https://www.thinkofbest.com/),  [Ayush](https://www.linkedin.com/in/ayush-jain-654617145/), - `Team`
+- 🎁 Developed by  [Ayush](https://www.linkedin.com/in/ayush-jain-654617145/), - `Team`
 
 
 <br />
