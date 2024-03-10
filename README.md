@@ -207,13 +207,13 @@ You can access the dashboard either by using the "**Dashboard**" link It will al
 Admin Page--------------------------
 
 Tag List
-[![E-Commerce Docker](TagList.png)]()
+[![E-Commerce Docker](tagList.png)]()
 Category ist
-[![E-Commerce Docker](CategoryList.png)]()
+[![E-Commerce Docker]cCategoryList.png)]()
 Product List
-[![E-Commerce Docker](ProductList.png)]()
+[![E-Commerce Docker](productList.png)]()
 Product Inventory List
-[![E-Commerce Docker](ProductInventoryList.png)]()
+[![E-Commerce Docker](productInventoryList.png)]()
 
 
 Add Tag
