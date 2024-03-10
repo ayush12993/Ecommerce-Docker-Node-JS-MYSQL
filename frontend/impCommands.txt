@@ -1,0 +1,9 @@
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app  fullstack-nodefrontend:latest npm i nodemon
+
+
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app -p 127.0.0.1:3000:3000 -h 0.0.0.0  fullstack-nodefrontend:latest npm start
+
+ docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app  fullstack-nodefrontend:latest npm i nodemon -D
+
+  docker run --rm -it -v C:\Users\Work\Documents\FullStack\frontend:/usr/src/app  fullstack-nodefrontend:latest npm i express mongoose jsonwebtoken bcrypt dotenv --save
+

@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+
+  nodefrontend:
+    container_name: nodefrontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/usr/src/app
+    networks:
+      - node-exa
+    depends_on:
+      - node-db
+      - nodebackend
+    links:
+      - node-db
+      - nodebackend
+    command: npm start
+    environment:
+      - CHOKIDAR_USEPOPOLLING=true
+      - WATCHPACK_POLLING=true
+
+  nodebackend:
+    container_name: nodebackend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/usr/src/app
+    environment:
+      DB_HOST: node-db  # Set the MySQL host to the service name
+      DB_USER: root
+      DB_PASSWORD: "12345678"
+      DB_NAME: newapp
+    networks:
+      - node-exa
+    depends_on:
+      - node-db
+    links:
+      - node-db
+    command: npm start
+
+  node-db:
+    image: mysql:8.0
+    container_name: node-db
+    environment:
+      MYSQL_DATABASE: "newapp"
+      MYSQL_ROOT_PASSWORD: "12345678"
+    volumes:
+      - db:/var/lib/mysql
+    networks:
+      - node-exa
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_HOST: node-db
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8081:80
+    networks:
+      - node-exa
+
+networks:
+  node-exa:
+    driver: bridge
+
+volumes:
+  db:
+    driver: local

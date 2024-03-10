@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar {
+  background-color: #333; /* Set background color */
+  position: fixed; /* Fix the navbar at the top */
+  width: 100%; /* Full width */
+  top: 0; /* Align to the top */
+  z-index: 1000; /* Set z-index to ensure it stays on top of other content */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  color: #fff; /* Set text color */
+  margin-right: 1rem;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-links {
+  color: #fff; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Add transition effect */
+}
+
+.nav-links:hover {
+  color: #00f; /* Change text color on hover */
+}
+
+
+    /* width */
+    #scroll::-webkit-scrollbar {
+      width: 1px;
+  }
+
+  /* Track */
+  #scroll::-webkit-scrollbar-track {
+      background: #f1f1f1;
+  }
+
+  /* Handle */
+  #scroll::-webkit-scrollbar-thumb {
+      background: rgb(133, 132, 132);
+  }
+
+
+  .address-card-max-h{
+    height: 300px;
+  }

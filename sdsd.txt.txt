@@ -1,0 +1,34 @@
+docker build -t backapp .
+docker build -t frontapp .
+
+ Id CommandLine
+  -- -----------
+   1 try { . "c:\Users\Work\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shel...
+   2 docker build -t ecommerce .
+   3 docker build -t ecommerce .
+   4 docker build -t ecommerce .
+   5 docker run --rm -it -v /c/Users/Work/Documents/Ecommerce:/app  ecommerce:latest npm init
+   6 pwd
+   7 docker run --rm -it -v /c/Users/Work/Documents/Ecommerce:/app  ecommerce:latest npm init
+   8 pwd
+   9 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/app  ecommerce:latest npm init
+  10 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/app  ecommerce:latest npm init
+  11 ls
+  12 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/app  ecommerce:latest npm init -y
+  13 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/usr/src/app  ecommerce:latest npm init -y
+  14 docker-compose up -d
+  15 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/usr/src/app  ecommerce-nodejs:latest npm init -y
+  16 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/usr/src/app  ecommerce-nodejs:latest npm init
+  17 docker-compose up -d
+  18 docker run --rm -it -v C:\Users\Work\Documents\FullStack\backend:/usr/src/app  backapp:latest npm init
+  19 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/usr/src/app  ecommerce-nodejs:latest npm start
+  20 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/usr/src/app -p 127.0.0.1:3000:3000 -h 0.0.0.0  ecommerce-nodejs:latest n...
+  21 docker run --rm -it -v C:\Users\Work\Documents\Ecommerce:/usr/src/app  ecommerce-nodejs:latest npm install express mysql dotenv hb... 
+
+C:\Users\Work\Documents\FullStack\frontend
+
+
+
+docker run --rm -it -v C:\Users\Work\Documents\FullStack\backend:/usr/src/app -p 127.0.0.1:3000:3000 -h 0.0.0.0  fullstack-backend:latest npm start
+
+docker run --rm -it -v C:\Users\Work\Documents\FullStack\backend:/usr/src/app  fullstack-backend:latest npm i mysql
