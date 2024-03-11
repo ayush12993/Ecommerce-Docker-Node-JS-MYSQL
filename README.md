@@ -1,7 +1,7 @@
 # [Docker Ecommerce](https://www.linkedin.com/in/ayush-jain-654617145/) `Dockerized`
 
 This Project is dockerized With [Ecommerce](https://www.linkedin.com/in/ayush-jain-654617145/) ,(This project main aim was to ease ecommerce development business with main idea to dockerize the whole application and through this we will in future provide ECommerce Node JS Solution at a lower price). Currently this project runs on NodeJS. In this project currently we areNodeJS Authentication System for Login & Registration(/backend) directory for Backend , for frontend(/frontend) images are stored in backend /images directory from wich images are being loaded. 
-using filament(/app/http/Livewire/CreateEIN), & for processing of payment we are using Paypal Payment API with the implementation of method in it (/app/Http/Controller/PaypalController), after retrieving Payment we are using external API for processing of PDF [PDFCo](https://pdf.co) after processing it we are storing end-user details in it.    This project is styled with the help of `Tailwind` and `Livewire` components for implementing of functionality with `Alpine.js`. This project consists `of base` **authentication system** and **user profile features** right out-of-the-box. No more seeing here & there the code, you can now focus on the more complex aspects of our app. 
+
 
 - 👉 *Frontend ONLY Version*: [Nowhere hosted](https://www.linkedin.com/in/ayush-jain-654617145/) `v1.0.2`
 - 🎁 Developed by  [Ayush](https://www.linkedin.com/in/ayush-jain-654617145/), - `Team`
