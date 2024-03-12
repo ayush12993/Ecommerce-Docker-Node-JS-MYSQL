@@ -1,5 +1,6 @@
 # [Docker Ecommerce](https://www.linkedin.com/in/ayush-jain-654617145/) `Dockerized`
 This Project is dockerized With [Ecommerce](https://www.linkedin.com/in/ayush-jain-654617145/) ,(This project main aim was to ease ecommerce development business with main idea to dockerize the whole application and through this we will in future provide ECommerce Node JS Solution at a lower price). Currently this project runs on NodeJS. In this project currently we areNodeJS Authentication System for Login & Registration(/backend) directory for Backend , for frontend(/frontend) images are stored in backend /images directory from wich images are being loaded. 
+#Node
 
 
 - 👉 *Frontend ONLY Version*: [Nowhere hosted](https://www.linkedin.com/in/ayush-jain-654617145/) `v1.0.2`
